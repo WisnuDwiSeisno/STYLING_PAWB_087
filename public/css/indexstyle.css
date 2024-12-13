@@ -1,0 +1,60 @@
+/* Background Color */
+body {
+    background-color: #F0F8FF; /* Light Blue */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading Styling */
+.judul {
+    color: #2F4F4F; /* Dark Slate Gray */
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #FFB6C1; /* Light Pink */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #FFFFFF; /* White */
+}
+
+.card-title {
+    color: #2F4F4F; /* Dark Slate Gray */
+}
+
+.card-text {
+    color: #2F4F4F; /* Dark Slate Gray */
+    font-size: 14px;
+}
+
+/* Button Styling */
+.btn-soft-primary {
+    background-color: #FFD700; /* Gold */
+    border-color: #FFD700;
+    color: #2F4F4F;
+}
+
+.btn-soft-primary:hover {
+    background-color: #F39C12; /* Sunset Orange */
+    border-color: #F39C12;
+}
+
+/* Card Images */
+.card-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Card Group Styling */
+.card-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}

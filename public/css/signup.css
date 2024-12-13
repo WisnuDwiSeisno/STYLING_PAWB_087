@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F9FB; /* Soft off-white background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Signup Container */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading */
+.signup-container h1 {
+    font-size: 2rem;
+    color: #2F4F4F; /* Dark gray color for heading */
+    margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label and Input */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #2F4F4F; /* Dark gray for labels */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #E0E0E0; /* Light gray border */
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Focus Effect */
+.form-group input:focus {
+    border-color: #FFB6C1; /* Pink border on focus */
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.8);
+}
+
+/* Button */
+.btn-signup {
+    background-color: #FFB6C1; /* Soft pink button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-signup:hover {
+    background-color: #FF99A5; /* Darker pink on hover */
+}
+
+/* Link Style */
+.link {
+    color: #FFB6C1; /* Soft pink for the link */
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #FF99A5; /* Darker pink on hover */
+    text-decoration: underline;
+}

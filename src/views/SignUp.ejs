@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F7F9FB;
+        }
+
+        .container {
+            background-color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #FFB6C1;
+            border-color: #FFB6C1;
+        }
+
+        .btn-primary:hover {
+            background-color: #FF99A5;
+            border-color: #FF99A5;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #2F4F4F;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            box-shadow: none;
+            border: 1px solid #E0E0E0;
+        }
+
+        .form-control:focus {
+            border-color: #FFB6C1;
+            box-shadow: 0 0 5px rgba(255, 182, 193, 0.8);
+        }
+
+        .text-center a {
+            color: #FFB6C1;
+        }
+
+        .text-center a:hover {
+            color: #FF99A5;
+        }
+
+        .text-center h1 {
+            color: #2F4F4F;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="text-center mb-4">
+                    <img src="/image/singup.png" alt="Sign In Image" class="img-fluid" width="200">
+                </div>
+                <h1 class="text-center mb-4">Sign Up</h1>
+                <form action="/Login" method="POST" class="p-4 border rounded shadow-sm">
+                    <div class="form-group mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" id="username" name="username" class="form-control"
+                            placeholder="Enter your username" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" name="password" class="form-control"
+                            placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                </form>
+                <p class="text-center mt-3">Sudah punya akun? <a href="/Login">Log In disini!</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
